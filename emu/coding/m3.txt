@@ -1,0 +1,51 @@
+# Coding overrides for the m3 profile: BMW M3 Competition xDrive (G80 LCI) on top of the
+# HMI's template coding (a G70 i7). Same "NAME":"value" names as ro/MGU22_Coding.txt.
+SERIES=G080LCI
+HMI_BRAND=bmw_m
+TRIM_LINE=m_competition
+# drivetrain: S58 petrol, 8-speed auto, xDrive
+ECO_TYPE_DRIVETRAIN=konv_petrol
+TYPE_OF_FUEL=petrol
+GEARBOX_TYPE=automatic
+EFF_DYN_TYPE_DRIVETRAIN=all_wheel
+# no high-voltage / charging anything on an M3
+M_ELECTRIC=disabled
+M_HYBRID=disabled
+M_BSG_ELECTRIC=disabled
+M_BSG_HYBRID=disabled
+M_BSG_PRECON_CHARGING_BAR=disabled
+M_HYBRID_EPA=disabled
+M_MOTOR=3_values
+MENU_ELECTRIC_DRIVING=disabled
+JOURNEYDATA_E_DRIVE_COUNTER=disabled
+ADAS_1DH_PHEV_EXT=disabled
+RSU_HV_SUPPORT=none
+AC_CHARGING_INLETS=no_ac
+DC_CHARGING_INLETS=no_dc
+CHARGING_CURRENT_LIMITATION=disabled
+CHARGING_FLAP_LOCK=disabled
+CHARGING_HOSPITALITY=disabled
+CHARGING_IDCC=disabled
+CHARGING_PLUG_LOCK=disabled
+CHARGING_TARGET=disabled
+CHARGING_SCREEN_EXT=disabled
+SMART_CHARGING_SCHEDULED_MODE=disabled
+LOCATION_BASED_CHARGING_SETTINGS=disabled
+VISIBILITY_SELECTION_CHARGING_POSITION=disabled
+LAST_CHARGING_STATIONS=disabled
+FES_EDRIVE_PHEV=disabled
+FES_ELECTRIC_BASE=disabled
+FES_ELECTRIC_CUSTOM=disabled
+ELECTRIC_CONF_ATTENUATION=disabled
+ELECTRIC_CONF_CLIMATE=disabled
+ELECTRIC_CONF_LIGHT_SIGHT=disabled
+ELECTRIC_CONF_SEATHEATING=disabled
+ELECTRIC_CONF_STARTUP=disabled
+ELECTRIC_CONF_STEERING=disabled
+# paint (any VEHICLE_COLOUR_V2 name from the schema, e.g. isle_of_man_gruen..., brooklyn_grau...)
+VEHICLE_COLOUR=portimao_blau_metallic
+VEHICLE_COLOUR_V2=portimao_blau_metallic
+# sedan, not an X model
+FES_XOFFROAD=disabled
+# Europe, km
+DISTANCE_UNIT=km_only
